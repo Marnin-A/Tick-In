@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tick.css">
+    
+    <title>Tick-In</title>
+</head>
+<body>
+    <h1 id="title">Tick-In</h1>
+
+    <form alignment="centre" id="form" action="Eg_database.com" method="post">
+        <h2>LOGIN</h2>
+        <!-- This defines the email input area-->
+        <input placeholder="Email" type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="example@gmail.com"> <br>
+      
+        <!-- This defines the password input area-->
+        <input placeholder="password" type="password" name="password" id="password" minlength="6" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"><br>
+         <!-- This defines the login button-->
+        <input id="login-button" type="submit" value="Let's go">
+        <!-- This defines the signup text and button-->
+        <p id="p1">If you don't already have an account  then click <a href="http://login.abc">signup</a> to get started</p>
+    </form>
+        <!-- These define the clock images-->
+        <img id="clock" src="Clock_08-00.svg.png" alt="a clock at 8" srcset="">
+        <img id="clock1" src="Clock_08-00.svg.png" alt="a clock at 8" srcset="">
+    
+</body>
+</html>
